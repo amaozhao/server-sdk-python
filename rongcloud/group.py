@@ -230,7 +230,7 @@ class Group(RongCloudBase):
                     "minute": minute})
         return Response(r, desc)
 
-    def lisGagUser(self, groupId):
+    def listGagUser(self, groupId):
         """
         查询被禁言群成员方法 方法
         @param  groupId:群组Id。（必传）

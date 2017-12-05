@@ -233,7 +233,7 @@ class Chatroom(RongCloudBase):
             })
         return Response(r, desc)
 
-    def ListGagUser(self, chatroomId):
+    def listGagUser(self, chatroomId):
         """
         查询被禁言聊天室成员方法 方法
         @param  chatroomId:聊天室 Id。（必传）

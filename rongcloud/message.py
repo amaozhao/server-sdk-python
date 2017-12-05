@@ -94,7 +94,7 @@ class Message(RongCloudBase):
             params=templateMessage)
         return Response(r, desc)
 
-    def PublishSystem(self,
+    def publishSystem(self,
                       fromUserId,
                       toUserId,
                       objectName,
